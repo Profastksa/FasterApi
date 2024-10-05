@@ -1,0 +1,73 @@
+<style>
+@page {
+    size: 10.16cm 15.24cm;
+    margin: 1cm;
+}
+
+@media print {
+    @page {
+        size: 10.16cm 15.24cm;
+    }
+    @page :blank {
+        display: none;
+    }
+
+    #invoice-template-large,
+    #invoice-template-large *,
+    #invoice-template-small,
+    #invoice-template-small * {
+        visibility: visible;
+    }
+
+    .invoice-table {
+        width: 100%;
+    }
+
+    table, td, th {
+        font-size: 10px;
+    }
+
+    .invoice-table,
+    .invoice-table th,
+    .invoice-table td {
+        /* border: 1px solid #ddd; */
+        padding: 0px;
+    }
+
+    /* Hide borders for inner tables */
+    .invoice-table table,
+    .invoice-table table th,
+    .invoice-table table td {
+       /*  Add this line to remove borders from inner tables */
+    }
+
+
+
+table {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+}
+}
+
+.va {
+    vertical-align: top;
+}
+.va {
+    vertical-align: top;
+}
+
+.ca {
+    text-align: center;
+}
+
+.va strong {
+    font-family: system-ui;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+}
+</style>

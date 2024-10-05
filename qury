@@ -1,0 +1,5 @@
+
+
+UPDATE `orders` SET `is_collected` =  0 WHERE id IN (3177,3178,3179,3180,3181,3183,3197,3205,3226,3275,3276,3306,3307,3444,3731,3766,3777,3779)
+UPDATE clients set in_accounts_order = 1 WHERE id = 407
+delete from issue_client_statements where id = 3656
